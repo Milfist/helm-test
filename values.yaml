@@ -1,0 +1,10 @@
+name: hello-world
+replicaCount: 1
+
+image:
+  repository: hello-world
+  tag: latest
+
+containerPort: 80
+
+namespace: local
