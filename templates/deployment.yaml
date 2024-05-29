@@ -34,6 +34,6 @@ spec:
     matchLabels:
       app: {{ .Values.name }}
   ports:
-    - port: 80
+    - port: {{ .Values.containerPort }}
       name: http
       protocol: TCP
