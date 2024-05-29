@@ -31,8 +31,7 @@ metadata:
     app: {{ .Values.name }}
 spec:
   selector:
-    matchLabels:
-      app: {{ .Values.name }}
+    app.kubernetes.io/name: {{ .Values.name }}
   ports:
     - port: {{ .Values.containerPort }}
       name: http
