@@ -1,7 +1,9 @@
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Values.name }}
+  name: {{ .Values.name }}-deployment
   namespace: {{ .Values.namespace }}
   labels:
     app: {{ .Values.name }}
@@ -22,17 +24,19 @@ spec:
         - containerPort: {{ .Values.containerPort }}
 
 ---
+
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ .Values.name }}
+  name: {{ .Values.name }}-service
   namespace: {{ .Values.namespace }}
   labels:
     app: {{ .Values.name }}
 spec:
   selector:
-    app.kubernetes.io/name: {{ .Values.name }}
+    app: {{ .Values.name }}
   ports:
     - port: {{ .Values.containerPort }}
+      targetPort: {{ .Values.targetPort }}
       name: http
       protocol: TCP
