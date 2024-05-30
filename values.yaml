@@ -1,10 +1,9 @@
-name: hello-world
+name: calculator-service
 replicaCount: 1
 
 image:
-  repository: hello-world
-  tag: latest
-
+  repository: milfist/calculator-service
+  tag: 1.0.0
 containerPort: 80
 
 namespace: terraform-helm-rancher-namespace
