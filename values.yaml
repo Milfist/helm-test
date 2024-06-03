@@ -8,3 +8,8 @@ containerPort: 8080
 targetPort: 8080
 
 namespace: terraform-helm-rancher-namespace
+
+volume:
+  mountPath: /test_logs
+  name: test-logs
+  hostPath: /mnt/test_logs
