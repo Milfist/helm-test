@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  business-microservice-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-06-04T12:48:26.240687+02:00"
+    description: A Helm chart for deploying business microservice
+    digest: 3b60e9f774e98a07a4dd7d74408499c334ec18b011f410c82a7980ed5e0ba7a0
+    icon: https://www.armadilloamarillo.com/wp-content/uploads/spring-boot-ok.png
+    name: business-microservice-chart
+    urls:
+    - business-microservices/business-microservice-chart-1.0.6.tgz
+    version: 1.0.6
+  config-server-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-06-04T12:48:26.24133+02:00"
+    description: A Helm chart for deploying config-server
+    digest: 0f5baacec1e201d500a40cb593be2a22e2dfc02d3da7f7295ab941e91453e58e
+    icon: https://github.com/Milfist/helm-test/blob/main/icons/springboot.png
+    name: config-server-chart
+    urls:
+    - config-server/config-server-chart-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-06-04T12:48:26.240091+02:00"

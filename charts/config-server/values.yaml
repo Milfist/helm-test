@@ -2,7 +2,7 @@ name: config-server
 replicaCount: 1
 
 image:
-  repository: milfist/config-server
+  repository: milfist/calculator-service
   tag: 1.0.0
 containerPort: 8888
 targetPort: 8888
