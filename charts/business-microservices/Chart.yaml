@@ -1,6 +1,6 @@
 apiVersion: v2
 name: business-microservice-chart
 description: A Helm chart for deploying business microservice
-version: 1.0.5
+version: 1.0.6
 appVersion: 1.0.0
-icon: https://github.com/Milfist/helm-test/blob/main/icons/springboot.png
+icon:  https://www.armadilloamarillo.com/wp-content/uploads/spring-boot-ok.png
