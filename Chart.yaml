@@ -3,4 +3,4 @@ name: business-microservice-chart
 description: A Helm chart for deploying business microservice
 version: 1.0.5
 appVersion: 1.0.0
-icon: https://www.armadilloamarillo.com/wp-content/uploads/spring-boot-ok.png
+icon: icons/sprinboot.png
