@@ -3,4 +3,4 @@ name: business-microservice-chart
 description: A Helm chart for deploying business microservice
 version: 1.0.5
 appVersion: 1.0.0
-icon: icons/sprinboot.png
+icon: https://github.com/Milfist/helm-test/blob/main/icons/springboot.png
