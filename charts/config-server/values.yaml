@@ -1,0 +1,15 @@
+name: config-server
+replicaCount: 1
+
+image:
+  repository: milfist/config-server
+  tag: 1.0.0
+containerPort: 8888
+targetPort: 8888
+
+namespace: terraform-helm-rancher-namespace
+
+volume:
+  mountPath: /test_logs
+  name: test-logs
+  hostPath: /mnt/test_logs
